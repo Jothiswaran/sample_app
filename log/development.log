@@ -1,0 +1,120 @@
+/!\ FAILSAFE /!\  2015-08-05 14:28:14 +0530
+  Status: 500 Internal Server Error
+  cannot load such file -- sqlite3
+    /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+    /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activesupport-2.3.18/lib/active_support/dependencies.rb:182:in `block in require'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activesupport-2.3.18/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activesupport-2.3.18/lib/active_support/dependencies.rb:182:in `require'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activesupport-2.3.18/lib/active_support/core_ext/kernel/requires.rb:7:in `block in require_library_or_gem'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activesupport-2.3.18/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activesupport-2.3.18/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/query_cache.rb:28:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/activerecord-2.3.18/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/actionpack-2.3.18/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/actionpack-2.3.18/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/actionpack-2.3.18/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/actionpack-2.3.18/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:10:in `synchronize'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/actionpack-2.3.18/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/actionpack-2.3.18/lib/action_controller/reloader.rb:34:in `run'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/actionpack-2.3.18/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rails-2.3.18/lib/rails/rack/static.rb:31:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `block in call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rails-2.3.18/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    /Users/Jothiswaran.S/.rvm/gems/ruby-1.9.3-p551@global/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+    /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+    /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2015-08-06 17:49:36) [GET]
+  [4;36;1mSCHEMA (42.7ms)[0m   [0;1mSHOW TABLES [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 126ms (View: 14, DB: 43) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-08-06 17:49:53) [GET]
+
+ActionController::RoutingError (No route matches "/users" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-08-06 17:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/test.html" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2015-08-06 17:54:43) [GET]
+  [4;36;1mSCHEMA (25.2ms)[0m   [0;1mSHOW TABLES [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 112ms (View: 13, DB: 25) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-08-06 17:54:46) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-08-06 17:54:49) [GET]
+
+ActionController::RoutingError (No route matches "/home.html" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2015-08-06 17:55:12) [GET]
+Rendering pages/home
+Completed in 115ms (View: 114, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2015-08-06 17:56:23) [GET]
+
+ActionController::RoutingError (No route matches "/controller/action" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Jothiswaran.S/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
