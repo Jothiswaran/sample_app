@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :users
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
@@ -11,7 +13,11 @@ ActionController::Routing::Routes.draw do |map|
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   map.resources :products
-
+  map.resources :sessions, :only => [:new, :create, :destroy]
+  map.resources :microposts, :only => [:create, :destroy]
+  
+  map.signin '/signin', :controller => 'sessions', :action => 'new'
+  map.signout '/signout', :controller => 'sessions', :action => 'destroy'
   # Sample resource route with options:
   #   map.resources :products, :member => { :short => :get, :toggle => :post }, :collection => { :sold => :get }
 
@@ -32,12 +38,19 @@ ActionController::Routing::Routes.draw do |map|
 
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
   # map.root :controller => "welcome"
-
+  map.root :controller => 'pages', :action => 'home'
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
+  
+  map.home '/home', :controller => 'pages', :action => 'home'
+  map.help '/help', :controller => 'pages', :action => 'help'
+  map.signup '/signup', :controller => 'users', :action => 'new'
+  #map.about '/about' :controller => 'pages', :action => 'about'
+  #map.contact '/contact' :controller => 'pages', :action => 'contact'
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+
 end

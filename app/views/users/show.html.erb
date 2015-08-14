@@ -1,0 +1,24 @@
+<table class="profile"> 
+<tr>
+<td class="main"> 
+<h2>
+<%= h @user.name %> 
+</h2>
+<% unless @user.microposts.empty? %>
+<table class="microposts"> 
+<%= render @microposts %>
+</table>
+</td>
+<td class="sidebar round">
+<strong>Name</strong> <%= h @user.name %><br />
+<strong>URL</strong> <%= link_to user_path(@user), @user %> 
+<strong>Microposts</strong> <%= @user.microposts.count %>
+</td>
+</tr>
+</table>
+<p>
+  <b>Email:</b>
+  <%=h @user.email %>
+</p>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
